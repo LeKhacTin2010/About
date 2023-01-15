@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/974/565/254/windows-11-windows-10-minimalism-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position-y: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+.div-txt{
+    font-size: large;
+}
+.header #h1-title{
+    color: aliceblue;
+}
+.content li>a{
+    background-color: rgb(150, 0, 170);
+    color: aliceblue;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    list-style: none;
+    position: absolute;
+}
+.content li>a:hover{
+    background: inherit;
+    color: aliceblue;
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+/* footer */
+.footer{
+    margin-top: 50vh;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.boxcenter2{
+    width: 50%;
+    margin: 0 auto;
+}
+.boxfooter1{
+    width: 20%;
+    float: left;
+}
+.boxfooter2{
+    width: 60%;
+    float: left;
+}
+.boxfooter3{
+    width: 20%;
+    float: left;
+}
+.textcenter{
+    text-align: center;
+}
+.colorCCC{
+    color: #CCC;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+#img3{
+    width: 60px;
+    height: 60px;
+}
